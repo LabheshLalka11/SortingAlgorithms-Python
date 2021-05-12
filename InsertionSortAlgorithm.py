@@ -1,4 +1,7 @@
-
+'''
+ The time complexity of Insertion sort is : O(n²)
+ The Space complexity of Insertion sort is : O(1)
+'''
 
 
 array = [5,4,2,6,8,-1]
