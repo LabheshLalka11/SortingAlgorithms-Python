@@ -12,7 +12,7 @@ def Insertionsort(array):
         position = i 
     while(position>0 and current_value<array[position-1]):
         array[position],array[position-1]=array[position-1],array[position]
-        position = position+1 
+        position = position-1 
     print("Insertion Sort Technique:",array)
     
 Insertionsort(array)
